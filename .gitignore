@@ -1,0 +1,4 @@
+simplesniffer
+*.gc*
+*.o
+*.d
