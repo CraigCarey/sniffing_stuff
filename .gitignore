@@ -1,4 +1,4 @@
-simplesniffer
+probe_req_sniffer
 *.gc*
 *.o
 *.d
