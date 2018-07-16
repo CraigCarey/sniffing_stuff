@@ -2,3 +2,5 @@ probe_req_sniffer
 *.gc*
 *.o
 *.d
+.idea/
+cmake-build-debug/

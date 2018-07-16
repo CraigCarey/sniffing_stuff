@@ -50,7 +50,7 @@ int main(int argc, char *argv[])
 		}
 	}
 
-	printf("Opening device %s for live capture\n", device);
+	printf("Opening device %s for live capture...", device);
 
 	pcap_t *descr = nullptr;
 	const int MaxBytesToCapture = 2048;
@@ -61,6 +61,8 @@ int main(int argc, char *argv[])
 		fprintf(stderr, "ERROR: %s\n", errbuf);
 		exit(1);
 	}
+
+	puts("\tdone");
 
 	// Loop forever & call processPacket() for every received packet
 	int count = 0;
